@@ -29,12 +29,12 @@ export default function SinglePlayerMode() {
         <ButtonsContainer>
           <Button
             $isMulti={true}
-            className="back-button"
+            className='back-button'
             onClick={handleOnEasyClick}
           >
             Easy
           </Button>
-          <Button className="play-button" onClick={handleOnHardClick}>
+          <Button className='play-button' onClick={handleOnHardClick}>
             Hard
           </Button>
         </ButtonsContainer>

@@ -8,7 +8,7 @@ interface BoardProps {
 
 export default function Board({ squares, onClick }: BoardProps) {
   const renderSquare = (index: number) => (
-    <Box className="square" onClick={() => onClick(index)}>
+    <Box className='square' onClick={() => onClick(index)}>
       {squares[index]}
     </Box>
   );

@@ -57,7 +57,7 @@ export default function SelectBox() {
         <Emojis>
           <EmojiButton
             onClick={() => handleClick(randomEmojiX)}
-            aria-label="Player X"
+            aria-label='Player X'
             $selected={selectedEmoji === randomEmojiX}
           >
             {randomEmojiX}
@@ -67,7 +67,7 @@ export default function SelectBox() {
 
           <EmojiButton
             onClick={() => handleClick(randomEmojiO)}
-            aria-label="Player O"
+            aria-label='Player O'
             $selected={selectedEmoji === randomEmojiO}
           >
             {randomEmojiO}
@@ -76,13 +76,13 @@ export default function SelectBox() {
         <ButtonsContainer>
           <Button
             $isMulti={true}
-            className="back-button"
-            aria-label="back to home"
+            className='back-button'
+            aria-label='back to home'
             onClick={() => setNavigate("start")}
           >
             Back
           </Button>
-          <Button className="play-button" onClick={handlePlayClick}>
+          <Button className='play-button' onClick={handlePlayClick}>
             Play
           </Button>
         </ButtonsContainer>

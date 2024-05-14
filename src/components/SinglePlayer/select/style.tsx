@@ -56,7 +56,9 @@ export const EmojiButton = styled.div<{ $selected: boolean }>`
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   transform: ${(props) => (props.$selected ? "scale(1.05)" : "none")};
   filter: ${(props) =>
-    props.$selected ? `drop-shadow( 0 10px 10px rgba(0, 0, 0, 0.658))` : "none"};
+    props.$selected
+      ? `drop-shadow( 0 10px 10px rgba(0, 0, 0, 0.658))`
+      : "none"};
   transition: transform 0.3s ease, filter 0.3s ease;
 `;
 
