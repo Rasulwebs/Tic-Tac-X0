@@ -75,7 +75,7 @@ export default function Start() {
           href='https://github.com/Rasulwebs/Tic-Tac-X0'
           target='_blank'
         >
-          Made with love by Rasulwebs
+          by Rasulwebs
         </FooterLink>
       </Footer>
     </Wrapper>
